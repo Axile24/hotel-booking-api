@@ -1,8 +1,30 @@
 {
+Booking
   "dependencies": {
     "aws-sdk": "^2.1692.0"
   },
   "devDependencies": {
     "serverless-offline": "^14.4.0"
   }
+
+  "name": "hotel-booking-api",
+  "version": "1.0.0",
+  "description": "Using aws : Serverless framework, API Gateway, AWS Lambda, DynamoDB, and Postman (curl)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axile24/hotel-booking-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Axile24/hotel-booking-api/issues"
+  },
+  "homepage": "https://github.com/Axile24/hotel-booking-api#readme"
+main
 }
