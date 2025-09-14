@@ -1,0 +1,32 @@
+functions:
+  createBooking:
+    handler: functions/CreateBooking/handler.handler
+    events:
+      - http:
+          path: bookings
+          method: post
+          cors: true
+
+  getAllBookings:
+    handler: functions/GetAllBookings/handler.handler
+    events:
+      - http:
+          path: bookings
+          method: get
+          cors: true
+
+  getBooking:
+    handler: functions/GetBooking/handler.handler
+    events:
+      - http:
+          path: bookings/{id}
+          method: get
+          cors: true
+
+  updateBooking:
+    handler: functions/UpdateBooking/handler.handler
+    events:
+      - http:
+          path: bookings/{id}
+          method: put
+          cors: true

@@ -1,4 +1,12 @@
 {
+Booking
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^14.4.0"
+  }
+
   "name": "hotel-booking-api",
   "version": "1.0.0",
   "description": "Using aws : Serverless framework, API Gateway, AWS Lambda, DynamoDB, and Postman (curl)",
@@ -18,4 +26,5 @@
     "url": "https://github.com/Axile24/hotel-booking-api/issues"
   },
   "homepage": "https://github.com/Axile24/hotel-booking-api#readme"
+main
 }
